@@ -54,11 +54,7 @@ const Home = () => {
 };
 
 const App = () => {
-  return (
-    <Auth0Provider domain={config.domain} clientId={config.clientId}>
-      <Home />
-    </Auth0Provider>
-  );
+  return <Home />;
 };
 
 const styles = StyleSheet.create({
