@@ -95,12 +95,12 @@ android {
 
     namespace "com.awesomeproject"
     defaultConfig {
-        applicationId "com.originmobileapp.staging"
+        applicationId "com.awesomeproject"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
-        manifestPlaceholders = [auth0Domain: "id.preprod.originenergy.com.au", auth0Scheme: "${applicationId}"]
+        manifestPlaceholders = [auth0Domain: "id.preprod.originenergy.com.au", auth0Scheme: "com.originmobileapp.staging"]
     }
 
     splits {
